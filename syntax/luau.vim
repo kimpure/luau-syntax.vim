@@ -159,6 +159,10 @@ syn region luauComment
 hi def link luauComment Comment
 hi def link luauCommentDelimiter Comment
 
+syn match luauColon /:/
+
+hi def link luauColon Identifier
+
 syn keyword luauStandardLibrary 
   \ assert
   \ collectgarbage

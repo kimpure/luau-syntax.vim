@@ -130,7 +130,7 @@ syn match luauAttribute /@\S*/
 
 hi def link luauAttribute Type
 
-syn match luauTypeCast /:/
+syn match luauTypeCast /::/
 
 syn match luauTypeOperator /?/
 syn match luauTypeOperator /&/
